@@ -3,8 +3,10 @@ def on_button_pressed_ab():
 input.on_button_pressed(Button.AB, on_button_pressed_ab)
 
 def on_received_string(receivedString):
-    basic.show_string(receivedString)
+    continue
+    scrollbit.scroll_text(receivedString, 255, 50)
 radio.on_received_string(on_received_string)
 
-basic.clear_screen()
+scrollbit.clear()
 radio.set_group(1)
+break
