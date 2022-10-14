@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.AB, function () {
     radio.sendString("I love you mama")
 })
 radio.onReceivedString(function (receivedString) {
